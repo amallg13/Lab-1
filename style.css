@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  color: #444;
+  background: #faf7f4;
+}
+
+
+/* --------------------
+   PARALLAX SECTIONS
+-------------------- */
+
+.parallax {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+
+/* --------------------
+   FIRST SCENE
+-------------------- */
+
+.hero {
+  background-image:
+    linear-gradient(
+      rgba(30, 35, 70, 0.25),
+      rgba(30, 35, 70, 0.25)
+    ),
+    url("images/alarm.png");
+}
+
+
+/* --------------------
+   BACKPACK SCENE
+-------------------- */
+
+.backpack {
+  background-image:
+    linear-gradient(
+      rgba(255, 220, 180, 0.2),
+      rgba(255, 220, 180, 0.2)
+    ),
+    url("images/backpack.png");
+}
+
+
+/* --------------------
+   BUS SCENE
+-------------------- */
+
+.bus {
+  background-image:
+    linear-gradient(
+      rgba(120, 180, 220, 0.2),
+      rgba(120, 180, 220, 0.2)
+    ),
+    url("images/bus.png");
+}
+
+
+/* --------------------
+   NORMAL SECTIONS
+-------------------- */
+
+.content {
+  min-height: 70vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  padding: 60px;
+
+  background: #fffaf8;
+}
+
+
+/* Panic section */
+
+.panic {
+  background: #f5dede;
+}
+
+
+/* Ending */
+
+.ending {
+  min-height: 100vh;
+
+  background: #d9e9f5;
+}
+
+
+/* --------------------
+   TEXT CARD
+-------------------- */
+
+.card {
+  background: rgba(255, 255, 255, 0.78);
+
+  padding: 40px;
+
+  border-radius: 20px;
+
+  backdrop-filter: blur(6px);
+
+  max-width: 500px;
+
+  text-align: center;
+}
+
+
+/* --------------------
+   TEXT
+-------------------- */
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+
+p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+
+.time {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.scroll {
+  margin-top: 35px;
+  font-size: 16px;
+}
+
+
+.emoji {
+  font-size: 80px;
+  margin: 25px 0;
+}
